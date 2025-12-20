@@ -57,7 +57,7 @@ nav {
   border-radius: 50%;
   min-width: 300px;
   margin: inherit;
-  background-image: url("images/profile.jpg");
+  background-image: url("https://raw.githubusercontent.com/BaRzz007/My_Portfolio/refs/heads/main/images/profile.jpg");
   /*background-image: url("https://picsum.photos/id/76/200/300");*/
   border: 1px solid;
 }
