@@ -57,7 +57,8 @@ nav {
   border-radius: 50%;
   min-width: 300px;
   margin: inherit;
-  background-image: url("https://picsum.photos/id/76/200/300");
+  background-image: url("images/IMG_127.HEIC");
+  /*background-image: url("https://picsum.photos/id/76/200/300");*/
   border: 1px solid;
 }
 
