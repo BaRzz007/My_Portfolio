@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'ibm plex mono', 'Courier New', Courier, monospace;
+    color: #9c9c9c;
+}
+
+p {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18.67px;
+}
+
+
+.raleway-hero-heading {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.hero-heading {
+    color: white;
+    font-size: 2.5em;
+}
+
+#profile-pic {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+header {
+    height: 700px;
+    background-color: #080808;
+}
+
+.top-menu {
+    background-color: #1b1b1b;
+    height: 70px;
+    width: 80%;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    display: flex;
+    padding: 0 3em;
+}
+
+nav {
+    /*min-width: 80%;*/
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 2em;
+}
+
+.social-links {
+    /*min-width: 20%;*/
+}
+
+.header-main-container {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    padding: 100px 200px;
+}
+
+.header-main-content {
+    margin: auto 150px auto 0;
+}
