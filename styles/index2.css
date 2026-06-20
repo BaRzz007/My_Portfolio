@@ -9,11 +9,19 @@ p {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 18.67px;
+  font-size: 13px;
 }
 
+.color-wht {
+    color: #ffffff;
+}
 
-.raleway-hero-heading {
+.margin-lr {
+    margin-left: 13em;
+    margin-right: 13em;
+}
+
+.raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -21,8 +29,8 @@ p {
 }
 
 .hero-heading {
-    color: white;
-    font-size: 2.5em;
+    font-size: 59px;
+    margin: auto;
 }
 
 #profile-pic {
@@ -31,8 +39,13 @@ p {
     border-radius: 50%;
 }
 
+.hero-img {
+    margin: auto;
+}
+
 header {
-    height: 700px;
+    min-height: 700px;
+    height: fit-content;
     background-color: #080808;
 }
 
@@ -46,10 +59,6 @@ header {
     padding: 0 3em;
 }
 
-nav {
-    /*min-width: 80%;*/
-}
-
 .nav-list {
     display: flex;
     list-style-type: none;
@@ -60,17 +69,72 @@ nav {
     margin: 0 2em;
 }
 
-.social-links {
-    /*min-width: 20%;*/
-}
+/*.social-links {
+    min-width: 20%;
+}*/
 
-.header-main-container {
+.hero-container {
     display: flex;
-    max-width: 80%;
-    margin: auto;
-    padding: 100px 200px;
+    margin-top: 80px;
 }
 
-.header-main-content {
-    margin: auto 150px auto 0;
+.hero-text-content {
+    margin: auto 80px auto 0;
+}
+
+.worked-with {
+    margin-top: 57px;
+}
+
+.cta-button {
+    background-color: #3F8E00;
+    border: 1px solid #62BA1B;
+    width: 307px;
+    height: 63px;
+    text-align: center;
+    align-content: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18.67px;
+    margin-top: 25px;
+}
+
+.cta-link {
+    text-decoration: none;
+    display: block;
+    width:307px;
+    height:63px;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-logo {
+    width: 160px;
+    height: 60px;
+    border: 1px solid #1B1B1B;
+    border-radius: 6px;
+}
+
+.case-studies {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.case-studies-heading h2 {
+    color: #080808;
+    justify-self: center;
+}
+
+.case-studies-heading p {
+    width: 70%;
+    text-align: center;
+    justify-self: center;
+}
+
+.case-study {
+    display: flex;
 }
