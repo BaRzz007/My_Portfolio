@@ -7,28 +7,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Raleway:wght@800&display=swap" 
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Raleway:wght@100..900&display=swap" 
         rel="stylesheet">
   <link rel="stylesheet" href="styles/index2.css">
   <title>Portfolio</title>
 </head>
 
 <body>
-  <header>
+  <header class="page-header">
     <div class="top-menu">
       <nav>
         <ul class="nav-list">
-          <li>Home</li>
-          <li>Case Studies</li>
-          <li>Testimonies</li>
-          <li>Recent Work</li>
-          <li>Get In Touch</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Testimonies</a></li>
+          <li><a href="#">Recent Work</a></li>
+          <li><a href="#">Get In Touch</a></li>
         </ul>
       </nav>
       <div class="social-links">
       </div>
     </div>
-    <div class="header-main margin-lr">
+    <div class="header-main section">
       <div class="hero-container">
         <div class="hero-text-content">
           <h1 class="hero-heading raleway color-wht">Ezekiel Bassey</h1>
@@ -59,60 +59,115 @@
     </div>
   </header>
   <main class="main-page">
-    <section class="case-studies margin-lr">
-      <div class="case-studies-heading">
-        <h2 class="raleway">Case Studies</h2>
-        <p>
-          Solving user and business problems since the last 3 years.<br>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-          Cumque necessitatibus ab nostrum quia suscipit recusandae quasi qui laboriosam.
-        </p>
+    <section class="case-studies">
+      <div class="section case-studies-main">
+        <header class="section-header">
+          <h2 class="raleway color-blck">Case Studies</h2>
+          <p>
+            Solving user and business problems since the last 3 years.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+            Cumque necessitatibus ab nostrum quia suscipit recusandae quasi qui laboriosam.
+          </p>
+        </header>
+        <div class="section-body">
+          <article class="case-study">
+            <div class="case-study-content">
+              <div class="tag">Fintech</div>
+              <h3>Work name here</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsa facilis accusamus itaque pariatur id earum, 
+                non explicabo aut voluptate eos ipsam sequi nemo saepe autem iure porro aperiam sit quidem.
+              </p>
+              <div class="view-cs-button">View case study &gt;</div>
+            </div>
+            <div class="case-study-img">
+              <img src="https://loremflickr.com/445/300/cat?ramdom=1" alt="case study image">
+            </div>
+          </article>
+          <article class="case-study">
+            <div class="case-study-content">
+              <div class="tag">EdTech</div>
+              <h3>Work name here</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsa facilis accusamus itaque pariatur id earum, 
+                non explicabo aut voluptate eos ipsam sequi nemo saepe autem iure porro aperiam sit quidem.
+              </p>
+              <div class="view-cs-button">View case study &gt;</div>
+            </div>
+            <div class="case-study-img">
+              <img src="https://loremflickr.com/445/300/cat?random=2" alt="case study image">
+            </div>
+          </article>
+          <article class="case-study">
+            <div class="case-study-content">
+              <div class="tag">Pharma</div>
+              <h3>Work name here</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsa facilis accusamus itaque pariatur id earum, 
+                non explicabo aut voluptate eos ipsam sequi nemo saepe autem iure porro aperiam sit quidem.
+              </p>
+              <div class="view-cs-button">View case study &gt;</div>
+            </div>
+            <div class="case-study-img">
+              <img src="https://loremflickr.com/445/300/cat?random=3" alt="case study image">
+            </div>
+          </article>
+        </div>
       </div>
-      <div class="case-studies-body">
-        <div class="case-study">
-          <div class="case-study-content">
-            <div class="tag"></div>
-            <h3>Work name here</h3>
+    </section>
+    <section class="testimonials">
+      <div class="testimonials-main section">
+        <header class="section-header">
+          <h2 class="raleway color-wht">Testimonials</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+            Ipsa facilis accusamus itaque pariatur id earum.
+          </p>
+        </header>
+        <div class="section-body testimonials-body">
+          <article class="testimony">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Ipsa facilis accusamus itaque pariatur id earum, 
-              non explicabo aut voluptate eos ipsam sequi nemo saepe autem iure porro aperiam sit quidem.
+              Ipsa facilis accusamus itaque pariatur id earum.
             </p>
-            <div class="view-cs-button"></div>
-          </div>
-          <div class="case-study-img">
-            <img src="https://picsum.photos/id/128/445/300" alt="case study image">
-          </div>
-        </div>
-        <div class="case-study">
-          <div class="case-study-img">
-            <img src="https://picsum.photos/id/128/445/300" alt="case study image">
-          </div>
-          <div class="case-study-content">
-            <div class="tag"></div>
-            <h3>Work name here</h3>
+            <footer>
+              <img src="https://loremflickr.com/50/50/dog?ramdom=1" alt="client image">
+              <h3>Client Name</h3>
+            </footer>
+          </article>
+          <article class="testimony">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Ipsa facilis accusamus itaque pariatur id earum, 
-              non explicabo aut voluptate eos ipsam sequi nemo saepe autem iure porro aperiam sit quidem.
+              Ipsa facilis accusamus itaque pariatur id earum.
             </p>
-            <div class="view-cs-button"></div>
-          </div>
-        </div>
-        <div class="case-study">
-          <div class="case-study-content">
-            <div class="tag"></div>
-            <h3>Work name here</h3>
+            <footer>
+              <img src="https://loremflickr.com/50/50/dog?ramdom=2" alt="client image">
+              <h3>Client Name</h3>
+            </footer>
+          </article>
+          <article class="testimony">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Ipsa facilis accusamus itaque pariatur id earum, 
-              non explicabo aut voluptate eos ipsam sequi nemo saepe autem iure porro aperiam sit quidem.
+              Ipsa facilis accusamus itaque pariatur id earum.
             </p>
-            <div class="view-cs-button"></div>
-          </div>
-          <div class="case-study-img">
-            <img src="https://picsum.photos/id/128/445/300" alt="case study image">
-          </div>
+            <footer>
+              <img src="https://loremflickr.com/50/50/dog?ramdom=3" alt="client image">
+              <h3 class="">Client Name</h3>
+            </footer>
+          </article>
+          <article class="testimony">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ipsa facilis accusamus itaque pariatur id earum.
+            </p>
+            <footer>
+              <img src="https://loremflickr.com/50/50/dog?ramdom=4" alt="client image">
+              <h3>Client Name</h3>
+            </footer>
+          </article>
         </div>
       </div>
     </section>
